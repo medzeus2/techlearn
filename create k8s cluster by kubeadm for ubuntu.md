@@ -189,7 +189,7 @@ systemctl restart docker.service
 ```shell
 kubeadm init  --config=init-config.yml
 
-完成之后有如下结果
+# 完成之后有如下结果
 To start using your cluster, you need to run the following as a regular user:
 
   mkdir -p $HOME/.kube
