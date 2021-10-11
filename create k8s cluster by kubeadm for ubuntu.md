@@ -173,7 +173,7 @@ KUBELET_CGROUP_ARGS=--cgroup-driver=cgroupfs
 方案2：修改docker为systemd
 
 ```bash
-vim /etc/docker/daemon.jso
+vim /etc/docker/daemon.json
 
 {
   "exec-opts": ["native.cgroupdriver=systemd"]
@@ -351,5 +351,4 @@ net-conf.json: |
 
 
 ## 安装ingress
-
 
